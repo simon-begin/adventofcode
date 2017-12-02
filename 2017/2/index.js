@@ -2,13 +2,13 @@
 'use strict';
 
 const stdio = require('stdio');
-const inverseCaptcha = require('./inverse-captcha');
+const checksum = require('./checksum');
 
 let ops = stdio.getopt({
   'input': {key: 'i', args: 1, mandatory: true, description: 'Puzzle input'},
-  'halfway': {key: 'h', args: 1, description: 'Put true to activate halfway'}
+  'divide': {key: 'd', args: 1, description: 'Enable checksum divide'}
 });
 
 if (ops.input) {
-  console.log(inverseCaptcha(ops.input, ops.halfway));
+  console.log(checksum(ops.input, ops.divide));
 }
