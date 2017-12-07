@@ -1,0 +1,31 @@
+{
+  "name": "circus",
+  "version": "0.0.1",
+  "description": "My take on advent of code 2017",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon-begin/adventofcode.git"
+  },
+  "author": "Simon Begin",
+  "license": "Unlicense",
+  "licenses": [
+    {
+      "type": "Unlicense",
+      "url": "https://spdx.org/licenses/Unlicense.html#licenseText"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/simon-begin/adventofcode/issues"
+  },
+  "homepage": "https://github.com/simon-begin/adventofcode#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "stdio": "^0.2.7"
+  }
+}
