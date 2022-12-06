@@ -1,0 +1,28 @@
+{
+  "name": "puzzle",
+  "version": "1.0.0",
+  "description": "My take on advent of code 2022",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simon-begin/adventofcode.git"
+  },
+  "author": "Simon Begin",
+  "license": "Unlicense",
+  "licenses": [
+    {
+      "type": "Unlicense",
+      "url": "https://spdx.org/licenses/Unlicense.html#licenseText"
+    }
+  ],
+  "dependencies": {
+    "stdio": "^2.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}
