@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/simon-begin/adventofcode#readme",
   "devDependencies": {
-    "mocha": "^4.0.1"
+    "mocha": "^10.1.0"
   },
   "dependencies": {
     "stdio": "^0.2.7"
